@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 * {
 	margin : 0px;
@@ -7,7 +8,7 @@
 
 body 
 {
-  background :#474747;
+  background :white;
 }
 
 header {
@@ -25,7 +26,54 @@ header {
 	margin : 20px;
 	margin-left:15%;
 }
+
+.main 
+{
+	margin-left: 15%;
+	margin-right: 15%;
+    width: 70%;
+	padding: 20px;
+	
+	background-color : #d1d1d1;
+}
+
+h1 
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:28px;
+	margin-bottom:4px;
+	color : black;
+}
+
+p 
+{
+	border-top : 2px solid #5e5e5e;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:23px;
+	color : black;
+}
+
+img 
+{
+	float:left;
+    margin: 7px 7px 7px 0; 
+	border: 8px solid #262626;
+	border-top : 1px solid #262626;
+	border-bottom : 1px solid #262626;
+	transition: all 0.5s ease-out;
+	border-radius : 6px;
+}
+
+img:hover
+{
+	float:left;
+	border: 8px solid #ff9d00;
+	border-top : 1px solid #ff9d00;
+	border-bottom : 1px solid #ff9d00;
+	transition: all 0.5s ease-out;
+}
+
 a{ 
     text-decoration: none;
-   } 
+ } 
 
