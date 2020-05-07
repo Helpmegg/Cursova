@@ -14,6 +14,7 @@ header {
 	background-color : #212121;
 	border-bottom : 8px solid #ff9d00;
 	padding-left : 40px;
+	
 }
 
 .menu 
@@ -22,5 +23,9 @@ header {
 	color : white;
 	font-size: 40px;
 	margin : 20px;
-	margin-right: 15%;
+	margin-left:15%;
 }
+a{ 
+    text-decoration: none;
+   } 
+
