@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
 
 * {
 	margin : 0px;
@@ -43,7 +46,6 @@ h1
 {
 	font-family: 'Ubuntu', sans-serif;
 	font-size:28px;
-	color : black;
 	background-color :	 #595959;
 	color : white;
 	padding : 4px;
@@ -56,12 +58,21 @@ h1::first-letter {
 
 p 
 {
-	font-family: 'Ubuntu', sans-serif;
-	font-size:23px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:20px;
 	color : black;
+	white-space : pre;
 }
 
-
+h2 
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:20px;
+	color : black;
+	padding-top:10px;
+	padding-bottom:6px;
+	border-bottom : 2px solid #c2c2c2;
+}
 
 img 
 {
@@ -72,9 +83,16 @@ img
 	border:3px solid #666666;
 }
 
-code 
+.code 
 {
-	
+	background-color : #f0f0f0;
+	font-family: 'Source Code Pro', monospace;
+	font-size : 14px;
+	white-space : pre;
+	border-left : 6px solid green;
+	padding-left : 8px;
+	margin-top : 15px;
+	margin-bottom : 15px;
 }
 
 .list 
