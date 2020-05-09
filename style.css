@@ -61,7 +61,11 @@ p
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:20px;
 	color : black;
+<<<<<<< HEAD
 	white-space : pre;
+=======
+	
+>>>>>>> 061cdc2284dcc31f79a06dd534ea1c8546848c33
 }
 
 h2 
@@ -120,4 +124,5 @@ img
 a{ 
     text-decoration: none;
  } 
+
 
