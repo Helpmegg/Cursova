@@ -61,6 +61,18 @@ h1::first-letter {
   color : #ff9d00;
 }
 
+.download 
+{
+	padding : 10px;
+	font-size : 40px;
+	color : #5ac437;
+	background-color : #4a4a4a;
+	//border: 7px solid #5ac437;
+	border-radius : 8px;
+	margin : 40px;
+	text-decoration: none;
+}
+
 img 
 {
 	/*float:left;*/
