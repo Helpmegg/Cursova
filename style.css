@@ -61,11 +61,7 @@ p
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:20px;
 	color : black;
-<<<<<<< HEAD
-	white-space : pre;
-=======
-	
->>>>>>> 061cdc2284dcc31f79a06dd534ea1c8546848c33
+	white-space: pre-wrap; 
 }
 
 h2 
@@ -124,5 +120,23 @@ img
 a{ 
     text-decoration: none;
  } 
+ 
+ .download 
+{
+	padding : 10px;
+	font-size : 30px;
+	color : #5ac437;
+	background-color : #4a4a4a;
+	//border: 7px solid #5ac437;
+	border-radius : 8px;
+	margin : 20px;
+	text-decoration: none;
+}
+
+#wtf 
+{
+	margin-left:22%;
+	text-align : center;
+}
 
 
