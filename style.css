@@ -143,6 +143,11 @@ a{
 #hide a 
 {
 	color : white;
+	cursor : default;
+}
+#hide a:hover 
+{
+	cursor: default;
 }
 
 footer 
